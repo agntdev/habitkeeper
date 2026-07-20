@@ -1,0 +1,20 @@
+[
+  {
+    "name": "+ New habit",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Start creating a new habit with name, frequency, and reminder time setup"
+            }
+          }
+        ],
+        "send": {
+          "callback": "habit:new"
+        }
+      }
+    ]
+  }
+]
