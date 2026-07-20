@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Fail",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Mark the current day as failed for a habit in a reminder message"
+            }
+          }
+        ],
+        "send": {
+          "callback": "habit:fail"
+        }
+      }
+    ]
+  }
+]
