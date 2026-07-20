@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/list",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show all habits at a glance with streaks and next reminder times"
+            }
+          }
+        ],
+        "send": {
+          "text": "/list"
+        }
+      }
+    ]
+  }
+]
